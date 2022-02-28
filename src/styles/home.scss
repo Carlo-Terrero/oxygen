@@ -1,0 +1,102 @@
+.Container-principal{
+    padding-left: 14%;
+    padding-right: 14%;
+
+    .Container-formu{
+        display: grid;
+        margin-top: 3rem;
+        color: white;
+        background-color: rgb(17, 124, 167);
+        padding: 1.5rem;
+        font-size: 1.2rem;
+
+        .title{
+            p{
+                margin-top: 0;
+            }
+
+            margin-bottom: 1rem;
+            border-bottom: solid white;
+        }
+
+        
+
+        .container-data{
+            display: flex;
+            margin-bottom: 2em;
+            align-items: baseline;            
+
+            textarea{
+                height: 5.5rem;
+                border-radius: 7px;
+                
+            }
+
+            .constainer-descrip{
+                display:grid;
+                gap: 1rem;                    
+                width: 30%; 
+                margin-right: 10%;
+                
+                input{
+                    border-radius: 5px;
+                    border:none;
+                    height: 1.5rem;
+                }
+
+                .descrip{
+                    display: grid;
+                }
+            }
+
+            .container-area{
+                display: grid;
+                width:60%;
+            }
+        }
+
+        .content-btn{
+            display: flex;
+            justify-content: end;
+
+            .btn-form{
+                background-color: aqua;
+                width: 30%;
+                height: 3rem;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                font-size: 1.1rem;
+                display: end;
+            }
+        }
+    }
+
+    .contariner-gestion{
+        display: flex;
+        justify-content: space-between;
+
+        .Container-formu{
+            width: 44%;
+        }
+
+        .Container-no{
+            width: 44%;
+            display: grid;
+            margin-top: 3rem;
+            color: white;
+            background-color: rgb(17, 124, 167);
+            padding: 1.5rem;
+            font-size: 1.2rem;
+
+            .title{
+                p{
+                    margin-top: 0;
+                }
+
+                margin-bottom: 1rem;
+                border-bottom: solid white;
+            }
+        }
+    }
+}

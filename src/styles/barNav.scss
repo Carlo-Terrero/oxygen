@@ -1,0 +1,18 @@
+.content-BarNav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(116, 83, 148, 0.322);
+    height: 6rem;
+    color: white;
+    border-bottom: solid rgba(0, 0, 0, 0.144);
+
+    .content-logo{
+        color:rgb(204, 15, 211);
+        font-size: 2.5rem;
+    }
+
+    .content-description{
+        font-size: 1.7rem;
+    }
+}
